@@ -12,7 +12,7 @@ docker pull mahmoudelgamal/zeppelin-base
 And you can pull the zeppelin release image:
 ```
 docker pull mahmoudelgamal/zeppelin-release:0.5.0
-docker run --rm -p 8080:8080 -p 8081:8081 mahmoudelgamal/zeppelin-release:0.5.0 bash
+docker run --rm -it -p 8080:8080 -p 8081:8081 mahmoudelgamal/zeppelin-release:0.5.0 bash
 ```
 Zeppelin located on `/usr/local/zeppelin/` path
 
